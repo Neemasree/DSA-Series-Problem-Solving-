@@ -1,149 +1,275 @@
-🚀 Check Whether a Number is Prime or Not
-📌 Problem
+# 🔢 Check Whether a Number is Prime or Not
 
-Given an integer n, determine whether the number is Prime or Not Prime.
+## 📌 Problem
 
-A prime number is a natural number greater than 1 that has exactly two factors:
+Given an integer `n`, determine whether the number is **Prime** or **Not Prime**.
 
-1
+### Definition
 
-The number itself
+A **Prime Number** is a number **greater than 1** that has **exactly two divisors**:
 
-🧠 Example
-Example 1
+* `1`
+* the number itself
 
-Input
+---
 
-n = 7
+# 🧠 Examples
 
-Output
+### Example 1
 
-Prime
+```
+Input  : n = 7
+Output : Prime
+```
 
-Explanation
-7 has only two factors: 1 and 7
+Divisors of 7:
 
-Example 2
+```
+1, 7
+```
 
-Input
+Only two divisors → Prime ✅
 
-n = 9
+---
 
-Output
+### Example 2
 
-Not Prime
+```
+Input  : n = 8
+Output : Not Prime
+```
 
-Explanation
-9 has factors 1, 3, and 9, so it is not a prime number.
+Divisors of 8:
 
-❗ Important Points
+```
+1, 2, 4, 8
+```
 
-A prime number must be greater than 1
+More than two divisors → Not Prime ❌
 
-It must have exactly two factors
+---
 
-If any number between 2 and n-1 divides n, it is not prime
+# 🟥 Approach 1: O(n) Solution
 
-🛠 Approach 1 — Brute Force
-Idea
+## 💡 Idea
 
-Check if any number from 2 to n-1 divides n.
+Check every number from:
 
-If we find a divisor, the number has more than two factors and therefore is not prime.
+```
+1 → n
+```
 
-If no divisor is found, the number is prime.
+Count how many numbers divide `n`.
 
-💻 C++ Implementation
-#include <iostream>
-using namespace std;
+If the divisor count is **exactly 2**, then the number is **Prime**.
 
-int main() {
+---
 
-    int n;
-    cin >> n;
-
-    if(n <= 1){
-        cout << "Not Prime";
-        return 0;
-    }
-
-    for(int i = 2; i < n; i++){
-        if(n % i == 0){
-            cout << "Not Prime";
-            return 0;
-        }
-    }
-
-    cout << "Prime";
-
-}
-⏱ Complexity
-Type	Complexity
-Time Complexity	O(n)
-Space Complexity	O(1)
-🛠 Approach 2 — Optimized Approach (Square Root Method)
-Idea
-
-Factors of a number always appear in pairs.
+## 🔄 Dry Run
 
 Example:
 
+```
+n = 7
+```
+
+Check divisibility:
+
+| i | 7 % i | Divisible? |
+| - | ----- | ---------- |
+| 1 | 0     | Yes        |
+| 2 | 1     | No         |
+| 3 | 1     | No         |
+| 4 | 3     | No         |
+| 5 | 2     | No         |
+| 6 | 1     | No         |
+| 7 | 0     | Yes        |
+
+Divisors:
+
+```
+1,7
+```
+
+Count = 2 → Prime
+
+---
+
+## 💻 Code (O(n))
+
+```cpp
+#include <iostream>
+using namespace std;
+
+bool isPrime(int n)
+{
+    int count = 0;
+
+    for(int i = 1; i <= n; i++)
+    {
+        if(n % i == 0)
+            count++;
+    }
+
+    if(count == 2)
+        return true;
+
+    return false;
+}
+
+int main()
+{
+    int n = 7;
+
+    if(isPrime(n))
+        cout << "Prime";
+    else
+        cout << "Not Prime";
+}
+```
+
+---
+
+## ⏱ Complexity
+
+| Time | Space |
+| ---- | ----- |
+| O(n) | O(1)  |
+
+⚠️ This method is slow for large numbers.
+
+---
+
+# 🟩 Approach 2: O(√n) Solution (Better)
+
+## 💡 Key Observation
+
+Divisors always occur in **pairs**.
+
+Example:
+
+```
 36
+```
 
-Factor pairs:
+Divisors:
 
+```
 1 × 36
 2 × 18
 3 × 12
 4 × 9
 6 × 6
+```
 
-Notice that all factor pairs meet around √36 = 6.
+After `√36 = 6`, divisors repeat.
 
-So instead of checking all numbers up to n, we only need to check up to √n.
+So we only check up to:
 
-This significantly reduces the number of operations.
+```
+√n
+```
 
-💻 C++ Implementation
+---
+
+## 🔄 Dry Run
+
+Example:
+
+```
+n = 29
+```
+
+```
+√29 ≈ 5
+```
+
+Check:
+
+| i | 29 % i |
+| - | ------ |
+| 2 | 1      |
+| 3 | 2      |
+| 4 | 1      |
+| 5 | 4      |
+
+No divisors found → Prime
+
+---
+
+## 💻 Code (O√n)
+
+```cpp
 #include <iostream>
+#include <cmath>
 using namespace std;
 
-int main() {
+bool isPrime(int n)
+{
+    if(n <= 1)
+        return false;
 
-    int n;
-    cin >> n;
-
-    if(n <= 1){
-        cout << "Not Prime";
-        return 0;
+    for(int i = 2; i <= sqrt(n); i++)
+    {
+        if(n % i == 0)
+            return false;
     }
 
-    for(int i = 2; i * i <= n; i++){
-        if(n % i == 0){
-            cout << "Not Prime";
-            return 0;
-        }
-    }
-
-    cout << "Prime";
-
+    return true;
 }
-⏱ Complexity
-Type	Complexity
-Time Complexity	O(√n)
-Space Complexity	O(1)
-📊 Approach Summary
-Approach	Time	Space
-Brute Force	O(n)	O(1)
-Optimized (√n)	O(√n)	O(1)
-💡 Key Concepts
 
-Divisibility check using %
+int main()
+{
+    int n = 29;
 
-Understanding factors
+    if(isPrime(n))
+        cout << "Prime";
+    else
+        cout << "Not Prime";
+}
+```
 
-Optimization using square root
+---
 
-Reducing unnecessary iterations
+## ⏱ Complexity
 
-⭐ If this repository helped you understand the problem, consider giving it a star!
+| Time  | Space |
+| ----- | ----- |
+| O(√n) | O(1)  |
+
+✅ Much faster for large numbers.
+
+---
+
+# 📊 Comparison
+
+| Approach | Time Complexity | Space |
+| -------- | --------------- | ----- |
+| O(n)     | O(n)            | O(1)  |
+| Better   | O(√n)           | O(1)  |
+
+---
+
+# 🎯 Key Takeaway
+
+Efficient prime checking uses:
+
+```
+Check divisibility from 2 → √n
+```
+
+If any number divides `n`, then:
+
+```
+Not Prime
+```
+
+Otherwise:
+
+```
+Prime
+```
+
+---
+
+⭐ This is a **fundamental number theory problem** commonly asked in coding interviews and competitive programming.
