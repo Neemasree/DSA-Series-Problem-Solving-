@@ -1,93 +1,78 @@
-
 📌 Problem Statement
 
-Given a sorted array arr[] and an integer k, return the index of k if it exists in the array. Otherwise return -1.
+Given a sorted array arr[] and an element k, return the index of k.
 
-If duplicates exist, returning any index is allowed.
+If not found:
 
-🧠 Intuition
+Return -1
+🧠 Key Idea
 
-Binary Search works by:
+Binary Search repeatedly divides the array into halves.
 
-Finding the middle element
-Comparing with target
-Eliminating half of the search space
-Repeating until found
-
-Works only on sorted arrays.
-
-🐢 Approach — Brute Force (Linear Search)
-💡 Idea
-
-Check each element one by one.
-
-💻 Code (C++)
+Sorted Array Required ✅
+💻 C++ Code
 class Solution {
-public:
+  public:
     int binarysearch(vector<int> &arr, int k) {
-        
-        for(int i = 0; i < arr.size(); i++) {
-            if(arr[i] == k) {
-                return i;
+
+        int low = 0;
+        int high = arr.size() - 1;
+
+        while(low <= high){
+
+            int mid = low + (high - low) / 2;
+
+            if(arr[mid] == k){
+                return mid;
+            }
+            else if(arr[mid] < k){
+                low = mid + 1;
+            }
+            else{
+                high = mid - 1;
             }
         }
 
         return -1;
     }
 };
-⚡ Approach — Optimal (Binary Search)
-💡 Steps
-Set l = 0
-Set r = n-1
-Find mid
-Compare:
-Equal → return mid
-Smaller → move right
-Larger → move left
-💻 Code (C++)
-class Solution {
-public:
-    int binarysearch(vector<int> &arr, int k) {
-
-        int l = 0;
-        int r = arr.size() - 1;
-
-        while(l <= r){
-
-            int mid = l + (r - l) / 2;
-
-            if(arr[mid] == k)
-                return mid;
-
-            else if(arr[mid] < k)
-                l = mid + 1;
-
-            else
-                r = mid - 1;
-        }
-
-        return -1;
-    }
-};
-🔍 Dry Run
+🎬 Animated Dry Run
+Array
 arr = [1,3,5,7,9]
 k = 7
+Step 1
+low = 0
+high = 4
 
-Step 1:
+            mid
+             ↓
+[1] [3] [5] [7] [9]
+ 0   1   2   3   4
 
-l=0 r=4
-mid=2 → 5
+arr[mid] = 5
 
-5 < 7 → move right
-l=3
+Since:
 
-Step 2:
+5 < 7
 
-l=3 r=4
-mid=3 → 7
+Move RIGHT →
 
-FOUND → return 3
+low = mid + 1
+low = 3
+Step 2
+low = 3
+high = 4
+
+                mid
+                 ↓
+[1] [3] [5] [7] [9]
+ 0   1   2   3   4
+
+arr[mid] = 7
+
+🎯 Found!
+
+Return index = 3
 ⏱️ Complexity
-Type	Value
-Time	O(log n)
-Space	O(1)
+Time  : O(log N)
+Space : O(1)
