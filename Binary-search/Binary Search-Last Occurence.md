@@ -1,89 +1,55 @@
-# 🔍 Binary Search — Last Occurrence
+# 🔍 Binary Search — Last Occurrence (LeetCode Style)
 
-## 📌 Problem Statement
+## 📌 Problem
 
-Given a **sorted array** of integers and a **target value**,  
-find the **last occurrence** of the target using **Binary Search**.
+Given a **sorted array `nums`** and a **target**,  
+return the **last occurrence** of the target.
 
-If the target is not present, return **-1**.
-
----
-
-## 🧠 Idea
-
-Normal Binary Search stops when target is found.  
-But for **last occurrence**, we:
-
-- Store the index when target is found
-- Continue searching on the **right side**
-- Return the **rightmost index**
+If the target is not found, return **-1**.
 
 ---
 
-## ⚙️ Algorithm Steps
+## 🧠 Idea (LeetCode Approach)
 
-1. Initialize:
-   - `low = 0`
-   - `high = n - 1`
-   - `ans = -1`
-
-2. While `low <= high`:
-   - Find `mid = low + (high - low) / 2`
-   - If `arr[mid] == target`  
-     → Store `mid` in `ans`  
-     → Move right → `low = mid + 1`
-   - Else if `arr[mid] < target`  
-     → Move right → `low = mid + 1`
-   - Else  
-     → Move left → `high = mid - 1`
-
-3. Return `ans`
+- Use **Binary Search**
+- When `nums[mid] == target`:
+  - Store index
+  - Move to the **right** to find later occurrence
+- Continue until search ends
+- Return stored index
 
 ---
 
-## 💻 C++ Code
+## 💻 C++ Code (LeetCode Style)
 
 ```cpp
-#include <iostream>
-using namespace std;
+class Solution {
+public:
+    int lastOccurrence(vector<int>& nums, int target) {
+        
+        int low = 0;
+        int high = nums.size() - 1;
+        int ans = -1;
 
-int lastOccurrence(int arr[], int n, int target) {
-    int low = 0;
-    int high = n - 1;
-    int ans = -1;
+        while (low <= high) {
 
-    while (low <= high) {
-        int mid = low + (high - low) / 2;
+            int mid = low + (high - low) / 2;
 
-        if (arr[mid] == target) {
-            ans = mid;          // store index
-            low = mid + 1;      // move right
+            if (nums[mid] == target) {
+                ans = mid;          // store index
+                low = mid + 1;      // search right
+            }
+            else if (nums[mid] < target) {
+                low = mid + 1;
+            }
+            else {
+                high = mid - 1;
+            }
         }
-        else if (arr[mid] < target) {
-            low = mid + 1;
-        }
-        else {
-            high = mid - 1;
-        }
+
+        return ans;
     }
-
-    return ans;
-}
-
-int main() {
-    int arr[] = {1, 2, 2, 2, 3, 4};
-    int n = 6;
-    int target = 2;
-
-    int result = lastOccurrence(arr, n, target);
-
-    if (result != -1)
-        cout << "Last Occurrence Index: " << result;
-    else
-        cout << "Element not found";
-
-    return 0;
-}
+};
 ```
 
 ---
@@ -93,15 +59,25 @@ int main() {
 **Input**
 
 ```
-arr = [1, 2, 2, 2, 3, 4]
+nums = [1,2,2,2,3,4]
 target = 2
 ```
 
 **Output**
 
 ```
-Last Occurrence Index: 3
+3
 ```
+
+---
+
+## 🎯 Key Observation
+
+| Case | Move |
+|------|------|
+| `nums[mid] == target` | Move **Right** |
+| `nums[mid] < target` | Move **Right** |
+| `nums[mid] > target` | Move **Left** |
 
 ---
 
@@ -113,15 +89,3 @@ Last Occurrence Index: 3
 | Space | **O(1)** |
 
 ---
-
-## 🎯 Key Point
-
-When target is found:
-
-```
-Store index
-Move RIGHT
-Keep searching
-```
-
-That guarantees the **last occurrence**.
