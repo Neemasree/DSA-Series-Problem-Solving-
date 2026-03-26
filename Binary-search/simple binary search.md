@@ -1,32 +1,18 @@
-🔍 Binary Search — Normal & First Occurrence
-
-This repository contains implementations of:
-
-🔹 Binary Search (Normal Search)
-🔹 First Occurrence Binary Search
-📚 Based on GeeksforGeeks (GFG) Binary Search problems
-🚀 Fundamental topic in DSA & Striver A2Z Sheet
+<p align="center"> <b>📂 Topic:</b> Binary Search <br> <b>📘 Platform:</b> GeeksforGeeks (GFG) <br> <b>🚀 Difficulty:</b> Easy </p>
 📌 Problem 1 — Binary Search (Normal Search)
 🧾 Problem Statement
 
 Given a sorted array arr[] and an integer k, return the index of k if present.
+If the element is not found, return -1.
 
-If k is not found, return -1.
+🔹 Example
+Input:
+arr = [1, 3, 5, 7, 9]
+k = 7
 
-🧠 Intuition
-
-Binary Search repeatedly divides the array into halves:
-
-Find the middle element
-Compare with target
-Move left or right
-Repeat until found
-
-Works only on:
-
-✅ Sorted Arrays
-
-💻 Implementation — C++
+Output:
+3
+💻 Implementation (C++)
 class Solution {
 public:
     int binarysearch(vector<int> &arr, int k) {
@@ -53,80 +39,5 @@ public:
 };
 📊 Complexity Analysis
 Type	Complexity
-⏱ Time	O(log n)
-💾 Space	O(1)
-📌 Problem 2 — First Occurrence Binary Search
-🧾 Problem Statement
-
-Given a sorted array arr[] and integer k, return the smallest index where k appears.
-
-If k is not found, return -1.
-
-🧠 Intuition
-
-When the target is found:
-
-Store the index
-Continue searching LEFT
-This ensures the first occurrence
-💻 Implementation — C++
-class Solution {
-public:
-    int binarysearch(vector<int> &arr, int k) {
-
-        int l = 0;
-        int r = arr.size() - 1;
-        int ans = -1;
-
-        while(l <= r){
-
-            int mid = l + (r - l) / 2;
-
-            if(arr[mid] == k){
-                ans = mid;
-                r = mid - 1;   // move LEFT
-            }
-
-            else if(arr[mid] < k){
-                l = mid + 1;
-            }
-
-            else{
-                r = mid - 1;
-            }
-        }
-
-        return ans;
-    }
-};
-⚠️ Common Mistakes
-
-❌ Wrong:
-
-l = mid - 1;
-
-✅ Correct:
-
-r = mid - 1;
-
-❌ Unsafe:
-
-int mid = (l + r) / 2;
-
-✅ Safe:
-
-int mid = l + (r - l) / 2;
-🧠 Memory Tricks
-
-Normal Binary Search
-
-arr[mid] < k → l = mid + 1
-arr[mid] > k → r = mid - 1
-
-First Occurrence
-
-arr[mid] == k → store index → r = mid - 1
-📈 Summary
-Problem	Key Idea	Time
-Binary Search	Return when found	O(log n)
-First Occurrence	Store index & move LEFT	O(log n)
+⏱ Time Complexity	O(log n)
+💾 Space Complexity	O(1)
