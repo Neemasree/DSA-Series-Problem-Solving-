@@ -1,43 +1,35 @@
 📌 Problem Statement
 
-Given a sorted array arr[] and an element k, return the index of k.
+Given a sorted array, search for a target element k.
 
-If not found:
+Return:
 
-Return -1
-🧠 Key Idea
+The index of k if present
+Otherwise return:
+-1
+🧠 Example
+Input
+arr = [1,3,5,7,9]
+k = 7
+Output
+3
+Explanation
 
-Binary Search repeatedly divides the array into halves.
+The element 7 is present at index 3.
 
-Sorted Array Required ✅
-💻 C++ Code
-class Solution {
-  public:
-    int binarysearch(vector<int> &arr, int k) {
+🛠 Binary Search Approach
+Idea
 
-        int low = 0;
-        int high = arr.size() - 1;
+Since the array is sorted, we:
 
-        while(low <= high){
+Find the middle element
+Compare it with k
+Move left or right accordingly
 
-            int mid = low + (high - low) / 2;
+This reduces search space by half each time.
 
-            if(arr[mid] == k){
-                return mid;
-            }
-            else if(arr[mid] < k){
-                low = mid + 1;
-            }
-            else{
-                high = mid - 1;
-            }
-        }
-
-        return -1;
-    }
-};
-🎬 Animated Dry Run
-Array
+🎬 Dry Run Animation
+Initial Array
 arr = [1,3,5,7,9]
 k = 7
 Step 1
@@ -57,8 +49,7 @@ Since:
 
 Move RIGHT →
 
-low = mid + 1
-low = 3
+low = mid + 1 = 3
 Step 2
 low = 3
 high = 4
@@ -73,6 +64,40 @@ arr[mid] = 7
 🎯 Found!
 
 Return index = 3
-⏱️ Complexity
-Time  : O(log N)
-Space : O(1)
+💻 C++ Implementation
+#include <bits/stdc++.h>
+using namespace std;
+
+int binarySearch(vector<int>& arr, int k) {
+
+    int low = 0;
+    int high = arr.size() - 1;
+
+    while(low <= high){
+
+        int mid = low + (high - low) / 2;
+
+        if(arr[mid] == k){
+            return mid;
+        }
+
+        else if(arr[mid] < k){
+            low = mid + 1;
+        }
+
+        else{
+            high = mid - 1;
+        }
+    }
+
+    return -1;
+}
+⏱ Complexity
+Type	Complexity
+Time Complexity	O(log N)
+Space Complexity	O(1)
+💡 Key Concepts
+Divide and conquer
+Mid calculation
+Sorted array requirement
+Reducing search space
