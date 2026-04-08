@@ -1,7 +1,7 @@
 Search in Rotated Sorted Array II  
 **(LeetCode 81 — duplicates allowed)**
 
-```markdown
+
 # 🔍 Search in Rotated Sorted Array II
 
 ## 📌 Problem Link
