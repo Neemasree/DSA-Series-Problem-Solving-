@@ -66,3 +66,23 @@ Solutions are written with clarity and simplicity for better understanding.
 ---
 
 ⭐ If you find this repository useful, feel free to explore the solutions.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Hash Table
+|  |
+| ------- |
+| [0567-permutation-in-string](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0567-permutation-in-string) |
+## Two Pointers
+|  |
+| ------- |
+| [0567-permutation-in-string](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0567-permutation-in-string) |
+## String
+|  |
+| ------- |
+| [0567-permutation-in-string](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0567-permutation-in-string) |
+## Sliding Window
+|  |
+| ------- |
+| [0567-permutation-in-string](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0567-permutation-in-string) |
+<!---LeetCode Topics End-->
