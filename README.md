@@ -72,6 +72,7 @@ Solutions are written with clarity and simplicity for better understanding.
 ## Hash Table
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0076-minimum-window-substring) |
 | [0567-permutation-in-string](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0567-permutation-in-string) |
 ## Two Pointers
 |  |
@@ -80,10 +81,12 @@ Solutions are written with clarity and simplicity for better understanding.
 ## String
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0076-minimum-window-substring) |
 | [0567-permutation-in-string](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0567-permutation-in-string) |
 ## Sliding Window
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0076-minimum-window-substring) |
 | [0567-permutation-in-string](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0567-permutation-in-string) |
 | [0713-subarray-product-less-than-k](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0713-subarray-product-less-than-k) |
 ## Array
