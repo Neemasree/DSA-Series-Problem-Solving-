@@ -77,11 +77,13 @@ Solutions are written with clarity and simplicity for better understanding.
 ## Two Pointers
 |  |
 | ------- |
+| [0344-reverse-string](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0567-permutation-in-string) |
 ## String
 |  |
 | ------- |
 | [0076-minimum-window-substring](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0076-minimum-window-substring) |
+| [0344-reverse-string](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0567-permutation-in-string) |
 ## Sliding Window
 |  |
