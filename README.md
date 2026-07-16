@@ -89,11 +89,13 @@ Solutions are written with clarity and simplicity for better understanding.
 |  |
 | ------- |
 | [0076-minimum-window-substring](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0076-minimum-window-substring) |
+| [0239-sliding-window-maximum](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0239-sliding-window-maximum) |
 | [0567-permutation-in-string](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0567-permutation-in-string) |
 | [0713-subarray-product-less-than-k](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0713-subarray-product-less-than-k) |
 ## Array
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0239-sliding-window-maximum) |
 | [0713-subarray-product-less-than-k](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0713-subarray-product-less-than-k) |
 ## Binary Search
 |  |
@@ -103,4 +105,16 @@ Solutions are written with clarity and simplicity for better understanding.
 |  |
 | ------- |
 | [0713-subarray-product-less-than-k](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0713-subarray-product-less-than-k) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0239-sliding-window-maximum) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
