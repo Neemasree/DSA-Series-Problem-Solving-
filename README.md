@@ -74,6 +74,7 @@ Solutions are written with clarity and simplicity for better understanding.
 | ------- |
 | [0076-minimum-window-substring](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0076-minimum-window-substring) |
 | [0567-permutation-in-string](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0567-permutation-in-string) |
+| [0904-fruit-into-baskets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0904-fruit-into-baskets) |
 ## Two Pointers
 |  |
 | ------- |
@@ -92,11 +93,13 @@ Solutions are written with clarity and simplicity for better understanding.
 | [0239-sliding-window-maximum](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0239-sliding-window-maximum) |
 | [0567-permutation-in-string](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0567-permutation-in-string) |
 | [0713-subarray-product-less-than-k](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0713-subarray-product-less-than-k) |
+| [0904-fruit-into-baskets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0904-fruit-into-baskets) |
 ## Array
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0239-sliding-window-maximum) |
 | [0713-subarray-product-less-than-k](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0713-subarray-product-less-than-k) |
+| [0904-fruit-into-baskets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0904-fruit-into-baskets) |
 ## Binary Search
 |  |
 | ------- |
