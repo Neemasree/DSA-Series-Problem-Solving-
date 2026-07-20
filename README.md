@@ -100,6 +100,7 @@ Solutions are written with clarity and simplicity for better understanding.
 ## Array
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0039-combination-sum) |
 | [0239-sliding-window-maximum](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0239-sliding-window-maximum) |
 | [0713-subarray-product-less-than-k](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0713-subarray-product-less-than-k) |
 | [0904-fruit-into-baskets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0904-fruit-into-baskets) |
@@ -123,4 +124,8 @@ Solutions are written with clarity and simplicity for better understanding.
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0239-sliding-window-maximum) |
+## Backtracking
+|  |
+| ------- |
+| [0039-combination-sum](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0039-combination-sum) |
 <!---LeetCode Topics End-->
