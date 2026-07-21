@@ -79,6 +79,7 @@ Solutions are written with clarity and simplicity for better understanding.
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0344-reverse-string](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0567-permutation-in-string) |
 ## String
@@ -100,6 +101,7 @@ Solutions are written with clarity and simplicity for better understanding.
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0039-combination-sum](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0078-subsets) |
