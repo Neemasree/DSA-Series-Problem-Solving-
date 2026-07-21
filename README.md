@@ -106,6 +106,7 @@ Solutions are written with clarity and simplicity for better understanding.
 | [0040-combination-sum-ii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0090-subsets-ii) |
+| [0216-combination-sum-iii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0216-combination-sum-iii) |
 | [0239-sliding-window-maximum](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0239-sliding-window-maximum) |
 | [0713-subarray-product-less-than-k](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0713-subarray-product-less-than-k) |
 | [0904-fruit-into-baskets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0904-fruit-into-baskets) |
@@ -136,6 +137,7 @@ Solutions are written with clarity and simplicity for better understanding.
 | [0040-combination-sum-ii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0090-subsets-ii) |
+| [0216-combination-sum-iii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0216-combination-sum-iii) |
 ## Bit Manipulation
 |  |
 | ------- |
