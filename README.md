@@ -85,6 +85,7 @@ Solutions are written with clarity and simplicity for better understanding.
 ## String
 |  |
 | ------- |
+| [0008-string-to-integer-atoi](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0008-string-to-integer-atoi) |
 | [0076-minimum-window-substring](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0076-minimum-window-substring) |
 | [0344-reverse-string](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0344-reverse-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0438-find-all-anagrams-in-a-string) |
