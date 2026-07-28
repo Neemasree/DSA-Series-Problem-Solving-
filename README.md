@@ -146,4 +146,12 @@ Solutions are written with clarity and simplicity for better understanding.
 | ------- |
 | [0078-subsets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0090-subsets-ii) |
+## Math
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0050-powx-n) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
