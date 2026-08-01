@@ -110,6 +110,7 @@ Solutions are written with clarity and simplicity for better understanding.
 | [0090-subsets-ii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0216-combination-sum-iii) |
 | [0239-sliding-window-maximum](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0239-sliding-window-maximum) |
+| [0486-predict-the-winner](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0486-predict-the-winner) |
 | [0713-subarray-product-less-than-k](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0713-subarray-product-less-than-k) |
 | [0904-fruit-into-baskets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0904-fruit-into-baskets) |
 ## Binary Search
@@ -150,10 +151,12 @@ Solutions are written with clarity and simplicity for better understanding.
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0050-powx-n) |
+| [0486-predict-the-winner](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0486-predict-the-winner) |
 ## Recursion
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0050-powx-n) |
+| [0486-predict-the-winner](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0486-predict-the-winner) |
 ## Stack
 |  |
 | ------- |
@@ -184,4 +187,12 @@ Solutions are written with clarity and simplicity for better understanding.
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0102-binary-tree-level-order-traversal) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0486-predict-the-winner) |
+## Game Theory
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
