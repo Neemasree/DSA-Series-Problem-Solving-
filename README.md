@@ -111,11 +111,13 @@ Solutions are written with clarity and simplicity for better understanding.
 | [0216-combination-sum-iii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0216-combination-sum-iii) |
 | [0239-sliding-window-maximum](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0239-sliding-window-maximum) |
 | [0486-predict-the-winner](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0486-predict-the-winner) |
+| [0704-binary-search](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0713-subarray-product-less-than-k) |
 | [0904-fruit-into-baskets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0904-fruit-into-baskets) |
 ## Binary Search
 |  |
 | ------- |
+| [0704-binary-search](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0713-subarray-product-less-than-k) |
 ## Prefix Sum
 |  |
