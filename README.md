@@ -103,6 +103,7 @@ Solutions are written with clarity and simplicity for better understanding.
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0035-search-insert-position](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0035-search-insert-position) |
 | [0039-combination-sum](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0046-permutations) |
@@ -117,6 +118,7 @@ Solutions are written with clarity and simplicity for better understanding.
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0035-search-insert-position) |
 | [0704-binary-search](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0713-subarray-product-less-than-k) |
 ## Prefix Sum
