@@ -117,6 +117,7 @@ Solutions are written with clarity and simplicity for better understanding.
 | [0713-subarray-product-less-than-k](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0713-subarray-product-less-than-k) |
 | [0875-koko-eating-bananas](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0875-koko-eating-bananas) |
 | [0904-fruit-into-baskets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0904-fruit-into-baskets) |
+| [1406-stone-game-iii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1406-stone-game-iii) |
 ## Binary Search
 |  |
 | ------- |
@@ -160,6 +161,7 @@ Solutions are written with clarity and simplicity for better understanding.
 | ------- |
 | [0050-powx-n](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0050-powx-n) |
 | [0486-predict-the-winner](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0486-predict-the-winner) |
+| [1406-stone-game-iii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1406-stone-game-iii) |
 ## Recursion
 |  |
 | ------- |
@@ -199,8 +201,18 @@ Solutions are written with clarity and simplicity for better understanding.
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0486-predict-the-winner) |
+| [1406-stone-game-iii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1406-stone-game-iii) |
 ## Game Theory
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0486-predict-the-winner) |
+| [1406-stone-game-iii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1406-stone-game-iii) |
+## Minimax
+|  |
+| ------- |
+| [1406-stone-game-iii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1406-stone-game-iii) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [1406-stone-game-iii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1406-stone-game-iii) |
 <!---LeetCode Topics End-->
