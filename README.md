@@ -76,6 +76,7 @@ Solutions are written with clarity and simplicity for better understanding.
 | [0438-find-all-anagrams-in-a-string](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0567-permutation-in-string) |
 | [0904-fruit-into-baskets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0904-fruit-into-baskets) |
+| [3731-find-missing-elements](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/3731-find-missing-elements) |
 ## Two Pointers
 |  |
 | ------- |
@@ -118,6 +119,7 @@ Solutions are written with clarity and simplicity for better understanding.
 | [0875-koko-eating-bananas](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0875-koko-eating-bananas) |
 | [0904-fruit-into-baskets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0904-fruit-into-baskets) |
 | [1406-stone-game-iii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1406-stone-game-iii) |
+| [3731-find-missing-elements](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/3731-find-missing-elements) |
 ## Binary Search
 |  |
 | ------- |
@@ -215,4 +217,8 @@ Solutions are written with clarity and simplicity for better understanding.
 |  |
 | ------- |
 | [1406-stone-game-iii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1406-stone-game-iii) |
+## Sorting
+|  |
+| ------- |
+| [3731-find-missing-elements](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/3731-find-missing-elements) |
 <!---LeetCode Topics End-->
