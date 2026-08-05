@@ -104,6 +104,7 @@ Solutions are written with clarity and simplicity for better understanding.
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0033-search-in-rotated-sorted-array](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0035-search-insert-position) |
 | [0039-combination-sum](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0039-combination-sum) |
@@ -123,6 +124,7 @@ Solutions are written with clarity and simplicity for better understanding.
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0035-search-insert-position) |
 | [0704-binary-search](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0704-binary-search) |
