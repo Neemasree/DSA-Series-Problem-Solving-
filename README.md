@@ -111,6 +111,7 @@ Solutions are written with clarity and simplicity for better understanding.
 | [0040-combination-sum-ii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0078-subsets) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0090-subsets-ii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0216-combination-sum-iii) |
 | [0239-sliding-window-maximum](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0239-sliding-window-maximum) |
@@ -127,6 +128,7 @@ Solutions are written with clarity and simplicity for better understanding.
 | [0033-search-in-rotated-sorted-array](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0035-search-insert-position) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0704-binary-search](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0713-subarray-product-less-than-k) |
 | [0875-koko-eating-bananas](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0875-koko-eating-bananas) |
