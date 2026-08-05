@@ -121,6 +121,7 @@ Solutions are written with clarity and simplicity for better understanding.
 | [0875-koko-eating-bananas](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0875-koko-eating-bananas) |
 | [0904-fruit-into-baskets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0904-fruit-into-baskets) |
 | [1406-stone-game-iii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1406-stone-game-iii) |
+| [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [3731-find-missing-elements](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/3731-find-missing-elements) |
 ## Binary Search
 |  |
@@ -132,6 +133,7 @@ Solutions are written with clarity and simplicity for better understanding.
 | [0704-binary-search](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0713-subarray-product-less-than-k) |
 | [0875-koko-eating-bananas](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0875-koko-eating-bananas) |
+| [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 ## Prefix Sum
 |  |
 | ------- |
