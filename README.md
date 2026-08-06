@@ -124,6 +124,7 @@ Solutions are written with clarity and simplicity for better understanding.
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1406-stone-game-iii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1406-stone-game-iii) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
+| [1539-kth-missing-positive-number](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1539-kth-missing-positive-number) |
 | [3731-find-missing-elements](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/3731-find-missing-elements) |
 ## Binary Search
 |  |
@@ -138,6 +139,7 @@ Solutions are written with clarity and simplicity for better understanding.
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
+| [1539-kth-missing-positive-number](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1539-kth-missing-positive-number) |
 ## Prefix Sum
 |  |
 | ------- |
