@@ -120,6 +120,7 @@ Solutions are written with clarity and simplicity for better understanding.
 | [0713-subarray-product-less-than-k](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0713-subarray-product-less-than-k) |
 | [0875-koko-eating-bananas](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0875-koko-eating-bananas) |
 | [0904-fruit-into-baskets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0904-fruit-into-baskets) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1406-stone-game-iii](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1406-stone-game-iii) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
@@ -134,6 +135,7 @@ Solutions are written with clarity and simplicity for better understanding.
 | [0704-binary-search](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0713-subarray-product-less-than-k) |
 | [0875-koko-eating-bananas](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/0875-koko-eating-bananas) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Neemasree/DSA-Series-Problem-Solving-/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 ## Prefix Sum
