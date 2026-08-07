@@ -34,3 +34,9 @@ Window position                Max
 	<li><code>-10<sup>4</sup> &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
 	<li><code>1 &lt;= k &lt;= nums.length</code></li>
 </ul>
+
+## Complexity
+
+- **Time:** O(n)
+- **Space:** O(k)
+- **Pattern:** Monotonic Deque (reference page; source not tracked)

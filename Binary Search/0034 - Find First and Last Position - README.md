@@ -24,3 +24,9 @@
 	<li><code>nums</code> is a non-decreasing array.</li>
 	<li><code>-10<sup>9</sup>&nbsp;&lt;= target&nbsp;&lt;= 10<sup>9</sup></code></li>
 </ul>
+
+## Complexity
+
+- **Time:** O(log n)
+- **Space:** O(1)
+- **Pattern:** Binary Search

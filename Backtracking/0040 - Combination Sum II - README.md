@@ -37,3 +37,9 @@
 	<li><code>1 &lt;=&nbsp;candidates[i] &lt;= 50</code></li>
 	<li><code>1 &lt;= target &lt;= 30</code></li>
 </ul>
+
+## Complexity
+
+- **Time:** O(n * 2^n)
+- **Space:** O(n)
+- **Pattern:** Backtracking with duplicate skipping

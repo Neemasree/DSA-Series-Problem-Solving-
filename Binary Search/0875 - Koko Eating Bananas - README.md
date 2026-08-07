@@ -36,3 +36,9 @@
 	<li><code>piles.length &lt;= h &lt;= 10<sup>9</sup></code></li>
 	<li><code>1 &lt;= piles[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
+
+## Complexity
+
+- **Time:** O(n log m)
+- **Space:** O(1)
+- **Pattern:** Binary Search on Answer

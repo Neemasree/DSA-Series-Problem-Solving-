@@ -26,3 +26,9 @@ Note that [10, 5, 2] is not included as the product of 100 is not strictly less 
 	<li><code>1 &lt;= nums[i] &lt;= 1000</code></li>
 	<li><code>0 &lt;= k &lt;= 10<sup>6</sup></code></li>
 </ul>
+
+## Complexity
+
+- **Time:** O(n)
+- **Space:** O(1)
+- **Pattern:** Variable Sliding Window

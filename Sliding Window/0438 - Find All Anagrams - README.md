@@ -29,3 +29,9 @@ The substring with start index = 2 is &quot;ab&quot;, which is an anagram of &qu
 	<li><code>1 &lt;= s.length, p.length &lt;= 3 * 10<sup>4</sup></code></li>
 	<li><code>s</code> and <code>p</code> consist of lowercase English letters.</li>
 </ul>
+
+## Complexity
+
+- **Time:** O(n)
+- **Space:** O(1)
+- **Pattern:** Fixed Sliding Window

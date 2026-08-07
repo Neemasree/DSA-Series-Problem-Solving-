@@ -26,3 +26,9 @@
 
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong> This problem is similar to&nbsp;<a href="/problems/search-in-rotated-sorted-array/description/" target="_blank">Search in Rotated Sorted Array</a>, but&nbsp;<code>nums</code> may contain <strong>duplicates</strong>. Would this affect the runtime complexity? How and why?</p>
+
+## Complexity
+
+- **Time:** O(n) worst case
+- **Space:** O(1)
+- **Pattern:** Binary Search

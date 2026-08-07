@@ -32,3 +32,9 @@ Finally, player 1 has more score (234) than player 2 (12), so you need to return
 	<li><code>1 &lt;= nums.length &lt;= 20</code></li>
 	<li><code>0 &lt;= nums[i] &lt;= 10<sup>7</sup></code></li>
 </ul>
+
+## Complexity
+
+- **Time:** O(n^2)
+- **Space:** O(n^2)
+- **Pattern:** Minimax Dynamic Programming

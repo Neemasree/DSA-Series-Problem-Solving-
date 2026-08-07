@@ -28,3 +28,9 @@
 	<li>All the integers in <code>nums</code> are <strong>unique</strong>.</li>
 	<li><code>nums</code> is sorted in ascending order.</li>
 </ul>
+
+## Complexity
+
+- **Time:** O(log n)
+- **Space:** O(1)
+- **Pattern:** Binary Search

@@ -17,3 +17,9 @@
 	<li><code>1 &lt;= nums.length &lt;= 10</code></li>
 	<li><code>-10 &lt;= nums[i] &lt;= 10</code></li>
 </ul>
+
+## Complexity
+
+- **Time:** O(n * 2^n)
+- **Space:** O(n)
+- **Pattern:** Backtracking with duplicate skipping

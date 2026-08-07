@@ -33,3 +33,9 @@
 <p><strong>Follow up:</strong></p>
 
 <p>Could you solve this problem in less than O(n) complexity?</p>
+
+## Complexity
+
+- **Time:** O(log n)
+- **Space:** O(1)
+- **Pattern:** Binary Search

@@ -33,3 +33,9 @@
 	<li><code>nums</code> contains <strong>distinct</strong> values sorted in <strong>ascending</strong> order.</li>
 	<li><code>-10<sup>4</sup> &lt;= target &lt;= 10<sup>4</sup></code></li>
 </ul>
+
+## Complexity
+
+- **Time:** O(log n)
+- **Space:** O(1)
+- **Pattern:** Binary Search

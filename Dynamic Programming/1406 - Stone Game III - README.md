@@ -45,3 +45,9 @@ Remember that both play optimally so here Alice will choose the scenario that ma
 	<li><code>1 &lt;= stoneValue.length &lt;= 5 * 10<sup>4</sup></code></li>
 	<li><code>-1000 &lt;= stoneValue[i] &lt;= 1000</code></li>
 </ul>
+
+## Complexity
+
+- **Time:** O(n)
+- **Space:** O(n)
+- **Pattern:** Dynamic Programming

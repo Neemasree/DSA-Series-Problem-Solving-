@@ -37,6 +37,7 @@ DSA-Series-Problem-Solving/
 |-- Game Theory/
 |-- Miscellaneous/
 |-- Notes/
+|-- Templates/
 |-- README.md
 `-- stats.json
 ```

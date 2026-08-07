@@ -50,3 +50,9 @@
 	<li><code>2 &lt;= nums.length &lt;= 100</code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 100</code></li>
 </ul>
+
+## Complexity
+
+- **Time:** O(n + range)
+- **Space:** O(n)
+- **Pattern:** Hash Set

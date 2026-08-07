@@ -25,3 +25,9 @@
 	<li><code>-10 &lt;= nums[i] &lt;= 10</code></li>
 	<li>All the numbers of&nbsp;<code>nums</code> are <strong>unique</strong>.</li>
 </ul>
+
+## Complexity
+
+- **Time:** O(n * 2^n)
+- **Space:** O(n)
+- **Pattern:** Backtracking

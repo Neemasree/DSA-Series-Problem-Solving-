@@ -50,3 +50,9 @@ It is obvious that we can make two bouquets in different ways.
 	<li><code>1 &lt;= m &lt;= 10<sup>6</sup></code></li>
 	<li><code>1 &lt;= k &lt;= n</code></li>
 </ul>
+
+## Complexity
+
+- **Time:** O(n log d)
+- **Space:** O(1)
+- **Pattern:** Binary Search on Answer

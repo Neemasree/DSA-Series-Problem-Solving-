@@ -36,3 +36,9 @@ This demonstrated that taking the first 5 was a winning move for Alice, so we re
 	<li><code>1 &lt;= piles[i] &lt;= 500</code></li>
 	<li><code>sum(piles[i])</code> is <strong>odd</strong>.</li>
 </ul>
+
+## Complexity
+
+- **Time:** O(n^2)
+- **Space:** O(n^2)
+- **Pattern:** Game Theory Dynamic Programming (reference page; source not tracked)

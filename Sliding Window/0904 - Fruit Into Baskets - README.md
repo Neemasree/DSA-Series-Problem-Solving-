@@ -44,3 +44,9 @@ If we had started at the first tree, we would only pick from trees [1,2].
 	<li><code>1 &lt;= fruits.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>0 &lt;= fruits[i] &lt; fruits.length</code></li>
 </ul>
+
+## Complexity
+
+- **Time:** O(n)
+- **Space:** O(k)
+- **Pattern:** Variable Sliding Window
