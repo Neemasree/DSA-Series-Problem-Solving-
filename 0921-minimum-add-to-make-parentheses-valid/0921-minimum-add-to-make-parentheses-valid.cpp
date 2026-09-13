@@ -8,7 +8,7 @@ public:
             if(s[i]=='('){
                 st.push(s[i]);  
             }else{
-                if(!st.empty() && st.top()=='('){
+                if(!st.empty()){
                     st.pop();
                 }
                 else{
