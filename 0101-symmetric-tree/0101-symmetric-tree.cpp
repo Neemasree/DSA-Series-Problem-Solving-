@@ -12,11 +12,8 @@
 class Solution {
 public:
     bool symmCheck(TreeNode* left,TreeNode* right){
-        if(left==NULL && right==NULL){
-            return true;
-        }
         if(left==NULL || right==NULL){
-            return false;
+            return left==right;
         }
         if(left->val != right->val){
             return false;
