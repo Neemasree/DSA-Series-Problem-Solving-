@@ -4,6 +4,8 @@ Find Peak Element
 ```markdown
 # 🔍 Find Peak Element
 
+🔗 **LeetCode:** https://leetcode.com/problems/find-peak-element/
+
 ## 📌 Problem Link
 LeetCode 162 — Find Peak Element
 

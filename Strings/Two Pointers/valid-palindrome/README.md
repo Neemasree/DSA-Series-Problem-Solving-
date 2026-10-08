@@ -1,5 +1,7 @@
 # Valid Palindrome – Two Pointer Approach (C++)
 
+🔗 **LeetCode:** https://leetcode.com/problems/valid-palindrome/
+
 ## Problem Statement
 
 Given a string `s`, determine if it is a palindrome after:

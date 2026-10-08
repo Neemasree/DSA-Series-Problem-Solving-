@@ -1,5 +1,7 @@
 # 567. Permutation in String
 
+🔗 **LeetCode:** https://leetcode.com/problems/permutation-in-string/
+
 ## Pattern
 Fixed Sliding Window + Frequency Counting
 

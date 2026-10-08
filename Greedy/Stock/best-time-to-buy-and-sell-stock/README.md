@@ -1,5 +1,7 @@
 # 📈 Best Time to Buy and Sell Stock — Code Explanation
 
+🔗 **LeetCode:** https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
 ## 🧩 Problem Overview
 
 You are given an array called `prices`.

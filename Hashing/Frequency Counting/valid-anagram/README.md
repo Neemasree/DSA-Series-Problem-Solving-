@@ -1,5 +1,7 @@
 # 242. Valid Anagram
 
+🔗 **LeetCode:** https://leetcode.com/problems/valid-anagram/
+
 ## Problem
 Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, otherwise return `false`.
 

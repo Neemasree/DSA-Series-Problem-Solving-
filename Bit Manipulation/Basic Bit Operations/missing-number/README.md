@@ -1,5 +1,7 @@
 # 🔍 Missing Number in an Array
 
+🔗 **LeetCode:** https://leetcode.com/problems/missing-number/
+
 ## 📌 Problem Statement
 
 Given an array `arr[]` of size **n−1** containing **distinct integers from 1 to n**, exactly **one number is missing**.

@@ -4,6 +4,8 @@
 ```markdown
 # 🔍 Single Element in Sorted Array
 
+🔗 **LeetCode:** https://leetcode.com/problems/single-element-in-a-sorted-array/
+
 ## 📌 Problem Link
 LeetCode 540 — Single Element in Sorted Array
 

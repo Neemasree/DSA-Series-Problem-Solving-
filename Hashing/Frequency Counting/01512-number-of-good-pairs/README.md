@@ -1,5 +1,7 @@
 # 1512. Number of Good Pairs
 
+🔗 **LeetCode:** https://leetcode.com/problems/number-of-good-pairs/
+
 Pattern: Frequency Counting
 
 ## Approach 1 - Brute Force
