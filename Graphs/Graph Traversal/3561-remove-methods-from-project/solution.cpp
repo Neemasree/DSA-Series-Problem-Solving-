@@ -1,0 +1,3 @@
+#include <bits/stdc++.h>
+using namespace std;
+class Solution{public:vector<int> remainingMethods(int n,int k,vector<vector<int>>&inv){vector<vector<int>>g(n);for(auto&e:inv)g[e[0]].push_back(e[1]);vector<char>bad(n);queue<int>q;q.push(k);bad[k]=1;while(!q.empty()){int u=q.front();q.pop();for(int v:g[u])if(!bad[v])bad[v]=1,q.push(v);}for(auto&e:inv)if(!bad[e[0]]&&bad[e[1]]){vector<int>a(n);iota(a.begin(),a.end(),0);return a;}vector<int>a;for(int i=0;i<n;++i)if(!bad[i])a.push_back(i);return a;}};

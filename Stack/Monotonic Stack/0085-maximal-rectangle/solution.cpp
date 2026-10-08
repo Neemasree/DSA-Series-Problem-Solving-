@@ -1,0 +1,3 @@
+#include <bits/stdc++.h>
+using namespace std;
+class Solution{int hist(vector<int>&h){stack<int>s;int ans=0,n=h.size();for(int i=0;i<=n;++i){int cur=i==n?0:h[i];while(!s.empty()&&h[s.top()]>cur){int ht=h[s.top()];s.pop();int l=s.empty()?-1:s.top();ans=max(ans,ht*(i-l-1));}s.push(i);}return ans;}public:int maximalRectangle(vector<vector<char>>&m){if(m.empty())return 0;int n=m[0].size(),ans=0;vector<int>h(n);for(auto&r:m){for(int j=0;j<n;++j)h[j]=r[j]=='1'?h[j]+1:0;ans=max(ans,hist(h));}return ans;}};
