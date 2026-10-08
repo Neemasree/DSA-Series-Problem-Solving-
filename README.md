@@ -10,206 +10,287 @@
   <img src="https://img.shields.io/badge/Approach-Brute%20%E2%86%92%20Optimal-orange?style=for-the-badge" alt="Brute to Optimal">
 </p>
 
-> **This is not just a collection of LeetCode solutions.**  
-> It is my personal DSA revision system — built to understand **patterns, reasoning, trade-offs, and optimization**, not just memorize code.
+> **Not a code dump. A pattern-first DSA revision system.**
+>
+> Every problem is organized around the question: **“What pattern should I recognize here?”**
 
 ---
 
 ## 🚀 What This Repository Is About
 
-I am building this repository as a long-term **DSA + placement preparation vault**.
+This repository is my long-term **DSA + placement preparation vault**.
 
-Every problem is organized as:
+The organization follows:
 
 **Topic → Pattern → Problem**
 
-The goal is simple:
+I use this structure to move from:
 
-- 🧩 Recognize the underlying pattern
-- 🧠 Understand the thought process
-- 🐢 Start with the brute-force idea
-- ⚡ Derive the optimal approach
-- 📊 Compare time and space complexity
-- 🔁 Make revision fast before interviews and contests
+**problem solving → pattern recognition → interview readiness**
+
+For every problem, the target is to understand:
+
+- 🧩 Pattern recognition
+- 🧠 Thought process
+- 🐢 Brute force
+- ⚡ Optimal solution
+- 💡 Alternative/reference approaches when useful
+- 📊 Time & space complexity
+- 🔍 Dry run and edge cases
 
 ---
 
-## 🗂️ Repository Architecture
+## 🗂️ Pattern-First Architecture
 
 ```
 DSA-Series-Problem-Solving/
 │
 ├── Arrays/
-│   └── Pattern/
-│       └── Problem/
+│   ├── Two Pointers/
+│   ├── Sliding Window/
+│   ├── Prefix Sum/
+│   ├── Kadane's Algorithm/
+│   ├── Hashing & Frequency/
+│   ├── Sorting & Rearrangement/
+│   ├── Greedy/
+│   ├── Matrix/
+│   └── XOR & Bit Manipulation/
 │
 ├── Binary Search/
-│   └── Pattern/
-│       └── Problem/
+│   ├── Basic Binary Search/
+│   ├── Lower Upper Bound/
+│   ├── Rotated Sorted Array/
+│   ├── Binary Search on Answer/
+│   └── Search in 2D Matrix/
 │
 ├── Sliding Window/
-│   └── Pattern/
-│       └── Problem/
+│   ├── Fixed Window/
+│   ├── Fixed Window - Frequency/
+│   ├── Variable Window/
+│   ├── Distinct Elements/
+│   ├── Minimum Window/
+│   └── Monotonic Deque/
 │
 ├── Stack/
-│   └── Pattern/
-│       └── Problem/
+│   ├── Parentheses/
+│   ├── Expression Evaluation/
+│   ├── Monotonic Stack/
+│   ├── Stack Simulation/
+│   ├── Stack + Greedy/
+│   └── Stack Design/
 │
 ├── Strings/
-│   └── Pattern/
-│       └── Problem/
-│
+├── Linked List/
 ├── Trees/
-│   └── Pattern/
-│       └── Problem/
-│
+├── Heap/
+├── Greedy/
+├── Backtracking/
 ├── Dynamic Programming/
 ├── Graphs/
-├── Hashing/
-├── Prefix Sum/
 ├── Math/
+├── Bit Manipulation/
 ├── SQL/
 ├── Notes/
 └── Templates/
 ```
 
-### 🔍 Example
+> The exact folders will grow as the remaining solved problems are added. The **pattern taxonomy comes first**, so new problems have a consistent home.
+
+---
+
+## 🧩 Core Pattern Library
+
+| Topic | Important Patterns |
+|---|---|
+| 📦 Arrays | Two Pointers, Sliding Window, Prefix Sum, Kadane's, Hashing, Sorting, Greedy, Matrix, XOR |
+| 🔎 Binary Search | Basic, Bounds, Rotated Array, Answer Space, 2D Matrix |
+| 🪟 Sliding Window | Fixed, Frequency, Variable, Distinct, Minimum Window, Deque |
+| 🥞 Stack | Parentheses, Expression Evaluation, Monotonic Stack, Contribution, Simulation, Greedy, Design |
+| 🔤 Strings | Frequency, Sliding Window, Two Pointers, Palindrome, Parsing, Stack, Greedy |
+| 🔗 Linked List | Fast/Slow, Reversal, Merge/Sort, Two Lists, K-Group, Rearrangement |
+| 🌳 Trees | DFS, BFS, Depth/Height, Path, Structure, Views, BST |
+| 🏹 Greedy | Intervals, Sorting + Local Choice, Stock, Rearrangement |
+| 🔁 Backtracking | Subsets, Permutations, Combination Sum, Constraint, Grid/Path |
+| 🧱 Heap | Top-K, Median/Two Heaps, Priority Queue |
+| 🧮 DP | 1D, Grid, Game/Minimax, Subsequences, Interval DP, Tree DP |
+| 🕸️ Graphs | DFS, BFS, Multi-source BFS, Topological Sort, DSU, Shortest Path |
+| 🔢 Math / Bits | Digit Math, Number Theory, Binary Exponentiation, XOR, Bit Tricks |
+| 🗃️ SQL | Filtering, JOIN, Aggregation, Subqueries, Window Functions, Date Analysis |
+
+---
+
+## 🧠 Pattern Recognition
+
+The repository is based on a simple idea:
 
 ```
-Stack/
-└── Monotonic Stack/
-    └── 0739-daily-temperatures/
+Read the problem
+      ↓
+Identify the constraint
+      ↓
+Look for the pattern
+      ↓
+Write brute force
+      ↓
+Find the bottleneck
+      ↓
+Optimize
+      ↓
+Compare complexity
+```
+
+### Examples
+
+**“Longest / shortest / at most K / window of size K”**
+
+→ Think **Sliding Window**
+
+**“Pair / triplet / sorted array / opposite ends”**
+
+→ Think **Two Pointers**
+
+**“Maximum sum contiguous subarray”**
+
+→ Think **Kadane's Algorithm**
+
+**“Range sum / subarray sum / cumulative information”**
+
+→ Think **Prefix Sum**
+
+**“Next greater / previous smaller / histogram”**
+
+→ Think **Monotonic Stack**
+
+**“Minimum possible maximum / maximum possible minimum”**
+
+→ Think **Binary Search on Answer**
+
+**“Top K / Kth largest / running median”**
+
+→ Think **Heap / Priority Queue**
+
+**“Connected components / flood fill / islands”**
+
+→ Think **Graph DFS/BFS**
+
+This is the actual skill I want this repository to train.
+
+---
+
+## 📝 Standard Problem Format
+
+Every problem should follow:
+
+```
+Topic/
+└── Pattern/
+    └── problem-name/
         ├── solution.cpp
         └── README.md
 ```
 
-This makes it possible to revise an entire **pattern** instead of searching through hundreds of unrelated files.
+Every problem README should contain:
 
----
-
-## 🧩 Core Patterns
-
-| Topic | Patterns Covered |
-|---|---|
-| 📦 Arrays | Two Pointers, Sorting, Matrix Traversal, Counting |
-| 🔎 Binary Search | Basic, Boundaries, Rotated Array, Answer Space |
-| 🪟 Sliding Window | Fixed Window, Variable Window, Frequency, Deque |
-| 🥞 Stack | Parentheses, Expressions, Monotonic Stack, Next Greater |
-| 🔤 Strings | Parsing, Two Pointers, Stack, Frequency |
-| 🌳 Trees | DFS, BFS, Tree DP |
-| 🔁 Backtracking | Subsets, Permutations, Combination Sum |
-| 🧮 Prefix Sum | Prefix Sum, Prefix + Hashing |
-| #️⃣ Hashing | Frequency Counting |
-| 📈 Dynamic Programming | Game DP and progressively expanding DP patterns |
-| 🕸️ Graphs | Traversal and progressively expanding graph patterns |
-| 🧠 Math | Number Theory, Binary Exponentiation |
-| 🗃️ SQL | Query patterns and interview practice |
-
-> The pattern library will keep expanding as I solve and revise more problems.
-
----
-
-## 📝 My Standard Problem Format
-
-Every problem is meant to answer **"How did I arrive at this solution?"**, not just **"What is the solution?"**
-
-Each problem README follows this flow:
-
-```text
+```
 01. Problem
 02. Pattern
-03. My Thought Process
-04. Brute Force
-05. Optimal Solution
-06. Alternative / Reference Approaches
-07. Time Complexity
-08. Space Complexity
-09. Key Takeaway
+03. Pattern Recognition Cue
+04. My Thought Process
+05. Approach 1 — Brute Force
+06. Approach 2 — Optimal
+07. Approach 3+ — Reference / Alternative
+08. Dry Run
+09. Time Complexity
+10. Space Complexity
+11. Key Takeaway
 ```
 
-### 🐢 Brute → ⚡ Optimal → 💡 Reference
-
-When a problem has multiple meaningful approaches, I keep them for revision:
+### 🐢 → ⚡ → 💡
 
 ```
 Brute Force
-   ↓
-Better Approach
-   ↓
-Optimal Approach
-   ↓
+    ↓
+Find the bottleneck
+    ↓
+Optimal Solution
+    ↓
 Alternative / Reference
 ```
 
-This helps me understand **why the optimal solution is actually better**.
+I don't want to simply know **what code works**.
+
+I want to know **why the better solution works**.
 
 ---
 
-## 🎯 My DSA Rules
+## 🎯 Placement Preparation
 
-I am following a few rules while building this collection:
+### High-Priority Revision Areas
 
-- **Don't blindly copy solutions.**
-- **Understand the pattern before memorizing code.**
-- **Write the brute-force approach first.**
-- **Always know the complexity.**
-- **Dry-run difficult logic on an example.**
-- **Revisit failed problems instead of hiding them.**
-- **Prefer pattern mastery over random problem counts.**
+- Arrays
+- Strings
+- Hashing
+- Two Pointers
+- Sliding Window
+- Prefix Sum
+- Binary Search
+- Stack & Monotonic Stack
+- Linked List
+- Trees & BST
+- Heap
+- Greedy
+- Backtracking
+- Graphs
+- Dynamic Programming
+- SQL
+
+### My Rule
+
+> **Don't memorize hundreds of solutions. Learn the patterns that generate them.**
 
 ---
 
 ## 📚 Revision Workflow
 
-When revising a topic, the workflow is:
+### First Attempt
+
+Solve without looking at the solution.
+
+### Second Pass
+
+If stuck:
+
+1. Identify the brute-force approach.
+2. Find the bottleneck.
+3. Ask what data structure/pattern removes it.
+4. Derive the optimized solution.
+5. Dry-run it.
+
+### Revision
+
+Instead of revising random problems:
 
 ```
-Pick a Topic
-     ↓
-Pick a Pattern
-     ↓
-Try the Problem Without Looking
-     ↓
-Explain the Brute Force
-     ↓
-Optimize It
-     ↓
-Compare Complexities
-     ↓
-Review the Key Takeaway
+Topic
+  ↓
+Pattern
+  ↓
+Problems
+  ↓
+Mistakes
+  ↓
+Re-solve
 ```
 
-The end goal is to reach the point where a new problem feels familiar because I can recognize its **pattern**, even when the question itself is different.
-
----
-
-## 🏆 Current Focus
-
-### Placement Preparation
-
-- Arrays & Strings
-- Sliding Window
-- Two Pointers
-- Hashing
-- Prefix Sum
-- Binary Search
-- Stack & Monotonic Stack
-- Trees
-- Graphs
-- Dynamic Programming
-- SQL
-
-### Problem-Solving Goal
-
-> **Fewer memorized solutions. More recognized patterns.**
+This makes revision much faster before interviews and contests.
 
 ---
 
 ## 🧭 Quick Navigation
 
-📌 **[DSA Problem Map](DSA%20Problem%20Map.md)** — Browse problems by Topic → Pattern → Problem
+📌 **[DSA Problem Map](DSA%20Problem%20Map.md)** — Complete Topic → Pattern → Problem map
 
-📚 **[Notes](Notes)** — Concept notes and revision material
+📚 **[Notes](Notes)** — Concepts and revision notes
 
 🧩 **[Templates](Templates)** — Reusable coding templates
 
@@ -217,28 +298,28 @@ The end goal is to reach the point where a new problem feels familiar because I 
 
 ## 💻 Language & Tools
 
-- **C++** — Primary problem-solving language
+- **C++** — Primary DSA language
 - **LeetCode** — Problem practice
-- **GitHub** — Version control and revision archive
+- **GitHub** — Version control + revision archive
 
 ---
 
 ## 🌱 Why I Built This
 
-This repository started as a place to push solved problems.
+This repository started as a collection of solved problems.
 
-It is becoming something more useful:
+Now the goal is bigger:
 
-> **A personal DSA knowledge base that I can return to before every contest, interview, and placement season.**
+> **Build a personal DSA knowledge base that I can revise before every contest, interview, and placement season.**
 
-Every solution is another pattern learned.  
-Every mistake is another concept clarified.  
-Every revision makes the next problem easier.
+Every solved problem should add one of three things:
+
+**a pattern, a technique, or a lesson.**
 
 ---
 
 <p align="center">
-  <strong>Keep solving. Keep questioning. Keep improving. 🚀</strong>
+  <strong>Think in Patterns. Solve with Logic. Optimize with Intent. 🚀</strong>
 </p>
 
 <p align="center">
