@@ -40,6 +40,31 @@ For every problem, the target is to understand:
 
 ---
 
+
+---
+
+## 🆕 Recent LeetCode Solves (October 2026)
+
+The latest practice batch is tracked below. Repeated entries from the submissions list are counted once.
+
+| # | Problem | Topic / Pattern |
+|---:|---|---|
+| 1 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | Strings · Concatenation / Simulation |
+| 2 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | Arrays · Prefix Sum |
+| 3 | [Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/) | Arrays · Sorting + Greedy |
+| 4 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | Arrays · Counting / Frequency |
+| 5 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | Arrays · Greedy |
+| 6 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | Arrays / Math · Digit Manipulation |
+| 7 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | Arrays · Prefix Sum |
+| 8 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) | Hashing · Frequency Counting |
+| 9 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | Arrays · Simulation |
+| 10 | [Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/) | Strings · Character Comparison |
+| 11 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | Trees · Level Connections |
+| 12 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | Trees · BFS / Level Order |
+| 13 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | Math · Divisibility |
+
+> **Recent batch:** 13 unique problems. “How Many Numbers Are Smaller…” and “Kids With the Greatest Number of Candies” appeared twice in the submission list, so they are listed once here.
+
 ## 🗂️ Pattern-First Architecture
 
 ```
