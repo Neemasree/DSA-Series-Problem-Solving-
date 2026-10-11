@@ -1,0 +1,14 @@
+id,title,topic,pattern,leetcode_url,status
+1662,Check If Two String Arrays are Equivalent,Strings,Concatenation / Simulation,https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/,Solved
+1480,Running Sum of 1d Array,Arrays,Prefix Sum,https://leetcode.com/problems/running-sum-of-1d-array/,Solved
+2037,Minimum Number of Moves to Seat Everyone,Arrays,Sorting + Greedy,https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/,Solved
+1365,How Many Numbers Are Smaller Than the Current Number,Arrays,Counting / Frequency,https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/,Solved
+1431,Kids With the Greatest Number of Candies,Arrays,Greedy / Comparison,https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/,Solved
+3300,Minimum Element After Replacement With Digit Sum,Arrays / Math,Digit Manipulation,https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/,Solved
+2574,Left and Right Sum Differences,Arrays,Prefix Sum,https://leetcode.com/problems/left-and-right-sum-differences/,Solved
+1512,Number of Good Pairs,Hashing,Frequency Counting,https://leetcode.com/problems/number-of-good-pairs/,Solved
+1929,Concatenation of Array,Arrays,Array Simulation,https://leetcode.com/problems/concatenation-of-array/,Solved
+3019,Number of Changing Keys,Strings,Character Comparison,https://leetcode.com/problems/number-of-changing-keys/,Solved
+116,Populating Next Right Pointers in Each Node,Trees,Level Connections,https://leetcode.com/problems/populating-next-right-pointers-in-each-node/,Solved
+993,Cousins in Binary Tree,Trees,BFS / Level Order,https://leetcode.com/problems/cousins-in-binary-tree/,Solved
+2894,Divisible and Non-divisible Sums Difference,Math,Arithmetic / Divisibility,https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/,Solved
