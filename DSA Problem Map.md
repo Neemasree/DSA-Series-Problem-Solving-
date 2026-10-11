@@ -36,6 +36,7 @@ Arrays are not one pattern. They are the foundation on which several patterns ar
 
 ### Prefix Sum
 - 724 — Find Pivot Index
+- 1480 — Running Sum of 1d Array
 - 2574 — Left and Right Sum Differences
 - 560 — Subarray Sum Equals K
 
@@ -62,6 +63,7 @@ Arrays are not one pattern. They are the foundation on which several patterns ar
 
 ### Greedy
 - 1431 — Kids With the Greatest Number of Candies
+- 2037 — Minimum Number of Moves to Seat Everyone
 - 122 — Best Time to Buy and Sell Stock II
 - 2149 — Rearrange Array Elements by Sign
 - 31 — Next Permutation
@@ -97,6 +99,7 @@ Arrays are not one pattern. They are the foundation on which several patterns ar
 - 3516 — Find Closest Person
 - 3701 — Compute Alternating Sum
 - 3467 — Transform Array by Parity
+- 1929 — Concatenation of Array
 
 ---
 
@@ -335,6 +338,7 @@ Arrays are not one pattern. They are the foundation on which several patterns ar
 
 ### Tree Connection
 - 116 — Populating Next Right Pointers in Each Node
+- 993 — Cousins in Binary Tree
 
 ### BST
 - 235 — Lowest Common Ancestor of a Binary Search Tree
@@ -589,3 +593,25 @@ Optimal Solution
 ```
 
 That is the skill I am building for placements, contests, and technical interviews.
+
+# 🆕 Recent LeetCode Solves — October 2026
+
+The submission list included duplicates for #1365 and #1431; each appears once in this recent-batch index.
+
+| Problem | Pattern | Status |
+|---|---|---|
+| [1662 — Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | String concatenation / simulation | Solved |
+| [1480 — Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | Prefix sum | Solved |
+| [2037 — Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/) | Sorting + greedy | Solved |
+| [1365 — How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | Counting / frequency | Solved |
+| [1431 — Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | Greedy / comparison | Solved |
+| [3300 — Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | Digit manipulation | Solved |
+| [2574 — Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | Prefix sum | Solved |
+| [1512 — Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) | Frequency counting | Solved |
+| [1929 — Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | Array simulation | Solved |
+| [3019 — Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/) | String character comparison | Solved |
+| [116 — Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | Tree level connections | Solved |
+| [993 — Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | BFS / level order | Solved |
+| [2894 — Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | Divisibility / arithmetic | Solved |
+
+---
