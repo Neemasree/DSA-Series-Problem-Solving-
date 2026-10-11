@@ -1,5 +1,8 @@
 # DSA Problem Map
 
+> Latest solve batch is indexed in [Recent Solves/October 2026](Recent%20Solves/October%202026/README.md) with all 13 unique recent solves.
+
+
 > **Pattern-first revision map** for my complete DSA + SQL preparation repository.
 >
 > **Source philosophy:** pattern recognition first, problem second. The structure is inspired by pattern-based DSA preparation and expanded using the patterns already present in my solved-problem history.
