@@ -20,4 +20,4 @@ This folder records the recent submission batch shared on October 11, 2026. Dupl
 
 ## Note
 
-The repository's topic-specific folders contain complete C++ solutions for problems already committed. This index tracks all 13 unique problems from the latest batch without inventing the exact code you submitted. As new solution code is added, follow the repository's standard structure: pattern cue, brute force, optimal approach, dry run, time and space complexity, and key takeaway.
+The eight problems that were not previously represented now have C++ solution files and individual READMEs. Five others already had solution files in the topic folders. The solutions use clear standard approaches and may not be byte-for-byte identical to the code submitted on LeetCode. Each new README records the pattern, brute-force idea, optimal approach, and complexity.
