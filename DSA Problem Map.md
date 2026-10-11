@@ -37,6 +37,7 @@ Arrays are not one pattern. They are the foundation on which several patterns ar
 ### Prefix Sum
 - 724 — Find Pivot Index
 - 1480 — Running Sum of 1d Array
+- 1480 — Running Sum of 1d Array
 - 2574 — Left and Right Sum Differences
 - 560 — Subarray Sum Equals K
 
@@ -167,6 +168,7 @@ Arrays are not one pattern. They are the foundation on which several patterns ar
 
 ### Basic Prefix Sum
 - 724 — Find Pivot Index
+- 1480 — Running Sum of 1d Array
 - 2574 — Left and Right Sum Differences
 
 ### Prefix Sum + Hashing
@@ -338,6 +340,7 @@ Arrays are not one pattern. They are the foundation on which several patterns ar
 
 ### Tree Connection
 - 116 — Populating Next Right Pointers in Each Node
+- 993 — Cousins in Binary Tree
 - 993 — Cousins in Binary Tree
 
 ### BST
